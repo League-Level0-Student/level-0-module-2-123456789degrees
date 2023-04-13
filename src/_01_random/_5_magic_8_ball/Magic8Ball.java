@@ -25,16 +25,16 @@ public class Magic8Ball {
 	
 	// 4. If the random number is 0
 		if (ran == 0) {
-			System.out.println("Yeah, probably.");
+			JOptionPane.showMessageDialog(null, "Yeah, probably. ");
 		}
 		else if (ran == 1) {
-			System.out.println("Outlook not so good.");
+			JOptionPane.showMessageDialog(null, "Outlook not so good. ");
 		}
 		else if (ran == 2) {
-			System.out.println("Maybe ask Google?");
+			JOptionPane.showMessageDialog(null, "Maybe ask Google?");
 		}
 		else {
-			System.out.println("My mind is not concetrating right now. Pls try again.");
+			JOptionPane.showMessageDialog(null, "My mind is not concetrating right now. Pls try again.");
 		}
 	// -- tell the user "Yes"
 

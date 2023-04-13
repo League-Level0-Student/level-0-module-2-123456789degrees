@@ -2,8 +2,18 @@ package _03_string_conversion._2_strings_cannot_add;
 
 import javax.swing.JOptionPane;
 
-public class StringsCannotAdd {
+import _02_methods._2_safe_cracker.SafeCracker;
 
+public class StringsCannotAdd {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+	
 		// 1) Make a main method that includes all the steps below…. 
 		
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
@@ -34,4 +44,5 @@ public class StringsCannotAdd {
 			// 10) Print the addition of fourAsInt, sixAsInt, and fiveAsInt using JOptionPane 
 			
 			// Is your value now 15 instead of 465?
+	}
 }
